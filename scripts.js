@@ -1,4 +1,4 @@
-// Selecao de elementos
+// SELECAO DE ELEMENTOS
 const op = document.getElementsByClassName("op");
 const opn = document.getElementsByClassName("opn");
 const ops = document.getElementsByClassName("ops");
@@ -7,11 +7,11 @@ const display = document.getElementById("display");
 const realtime = document.getElementById('realtime');
 
 
-// declaração de variaveis
+// DECLARAÇÕES DE VARIAVEIS
 var n1, n2, operador;
 
 
-// funcoes
+// FUNCOES
 
 //Capiturar n1, operador e limpar display
 function N1ClearDisplay(n,opx) {
@@ -56,6 +56,7 @@ calcular.addEventListener("click", function(){
 })
 
 
+
 // Função para aceitar apenas numeros
 display.addEventListener("keyup", function(e) {
 	var n = display.value;
@@ -69,8 +70,7 @@ display.addEventListener("keyup", function(e) {
 
 
 
-
-// Eventos
+// EVENTOS
 
 // %
 op[0].addEventListener("click", function() {
