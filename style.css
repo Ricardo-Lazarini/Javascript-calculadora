@@ -1,0 +1,79 @@
+/*1: 30 pra fazeer - Ate as 16: 50;*/
+
+
+
+/*Para todo o sistema*/
+* {
+	margin: 0;
+}
+
+/*body-calculate*/
+.body-calculate {
+	width: 330px;
+	height: auto;
+	border: solid 1px grey;
+	margin-left: 200px;
+	margin-top: 100px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/*header*/
+.header {
+	background-color: lightcoral;
+	height: 40px;
+	width: 96%;
+	margin-left: 2%;
+}
+
+ h1{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	padding: 4px;
+}
+
+/*display-calculate*/
+.display-calculate {
+	border: solid 1px lightgrey;
+	width: 96%;
+	height: 110px;
+	margin-left: 2%;
+	margin-top: 4px;
+}
+input {
+	width: 96%;
+	height: 96%;
+	font-size: 22px;
+	color: grey;
+}
+/*numbers-operators*/
+.numbers-operators {
+	width: auto;
+	height: 350px;
+	border: solid 1px lightgrey;
+	margin-left: 2%;
+	margin-top: 4px;
+}
+
+.op, .opn, .opi, .ops {
+	width: 70px;
+	height: 60px;
+	border: solid 1px grey;
+	margin: 4px;
+	float: left;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: grey;
+    font-weight: 900;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.op:hover, .opn:hover, .opi:hover, .ops:hover {
+	background-color: lightcoral;
+	color: white;
+}
