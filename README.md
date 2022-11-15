@@ -1,2 +1,2 @@
 # Javascript-calculadora
-Calculadora em javascript para aprendizado
+Calculadora desenvolvida com javascript 
